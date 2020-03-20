@@ -1,5 +1,14 @@
-<title>Password</title>
-<form>
-<p>Password:
-	<input type="Password" name="Password" size="15" maxlength="30" />
-<button><type="hidden" ></button>
+<div class="input nobottomborder">
+        <div class="inputtext">
+            Password:
+        </div>
+
+        <div class="inputcontent">
+            <input type="password" id="password" /><br />
+        </div>
+    </div>
+
+    <div class="buttons">
+        <input class="orangebutton" type="submit" value="Continue" onclick="if (document.getElementById('password').value == 'hitlersixnine') location.href='secret.html'; else alert('Wrong Password!');" />
+    </div>
+</form>
